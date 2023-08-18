@@ -1,0 +1,76 @@
+body{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+
+p,
+h1,
+h2,
+h3{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header,
+.signup,
+.footer {
+    background-color: #1f2937;
+    color: white;
+}
+
+.quote{
+    background-color: #e5e7eb;
+}
+
+.CTA {
+    background-color: #3882f6;
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.header ul{
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    gap: 12px
+}
+
+.signup {
+    padding: 12px;
+    display: flex;
+}
+
+.infos{
+    text-align: center;
+    padding: 12px;
+}
+
+.infos .content{
+    display: flex;
+}
+
+.quote{
+    padding: 12px;
+}
+
+.quote #author {
+    text-align: right;
+}
+
+.CTA {
+    display: flex;
+    padding: 12px;
+    margin: 12px;
+}
+
+.footer{
+    padding: 12px;
+    text-align: center;
+}
